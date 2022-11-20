@@ -65,6 +65,7 @@ select {
     background: var(--secondary-color)!important;
 }
 
+
 a,
 a:hover {
     text-decoration: none;
