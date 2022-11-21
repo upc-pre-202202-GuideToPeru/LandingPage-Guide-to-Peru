@@ -13,6 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 .noscroll {
     overflow: hidden;
     height: 100vh;
@@ -1448,6 +1449,7 @@ h4.sub-title {
     }
 }
 
+
 @media screen and (max-width: 800px) {
     .products-4 label.tabtle:before {
         margin: 0;
@@ -1473,6 +1475,7 @@ h4.sub-title {
         margin-bottom: 5px;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .products-4 h3.heading-title {
@@ -1511,6 +1514,7 @@ h4.sub-title {
     }
 }
 
+
 @media screen and (max-width: 384px) {
     .products-4 label.tabtle,
     .products-4 input:checked + label.tabtle,
@@ -1545,6 +1549,7 @@ body::after {
     font-weight: normal;
 }
 
+
 .lightbox .lb-image {
     display: block;
     height: auto;
@@ -1565,6 +1570,7 @@ body::after {
     margin: 0 auto;
     border-radius: 4px;
 }
+
 
 .lb-outerContainer:after {
     content:"";
@@ -1595,6 +1601,7 @@ body::after {
     z-index: 1;
 }
 
+
 .services-12 .form-12-content:before {
     content: "";
     background: rgba(7, 10, 12, 0.72);
@@ -1620,6 +1627,7 @@ body::after {
     font-weight: 700;
     margin-bottom: 20px;
 }
+
 
 .services-12 h5 {
     padding: 6px 10px 5px 10px;
@@ -1648,6 +1656,7 @@ body::after {
     font-size: 30px;
     font-weight: 700;
 }
+
 
 .services-12 li {
     font-size: 16px;
@@ -1682,6 +1691,7 @@ body::after {
     }
 }
 
+
 @media (max-width: 768px) {
     .services-12 .form-12 {
         padding: 30px 0px;
@@ -1700,6 +1710,7 @@ body::after {
         padding: 3em 0px;
     }
 }
+
 
 @media (max-width: 414px) {
     .services-12 .tagline {
@@ -1720,6 +1731,7 @@ body::after {
     font-weight: 700;
     margin-bottom: 0;
 }
+
 
 .tank-testimonials p.sub-title {
     font-size: 16px;
@@ -1748,6 +1760,7 @@ body::after {
     transition: 0.5s ease;
 }
 
+
 .tank-testimonials .card-body {
     position: relative;
 }
@@ -1761,6 +1774,7 @@ body::after {
     background: #f4f4f4;
 
 }
+
 
 .tank-testimonials .feedback-hny {
     padding: 40px 20px;
@@ -1789,6 +1803,7 @@ body::after {
    
 }
 
+
 .tank-testimonials p.feedback-para {
 
     margin: 0;
@@ -1809,6 +1824,7 @@ body::after {
     border: 4px solid #ddd;
     width: 24%;
 }
+
 
 .tank-testimonials .feedback-review h5 {
     font-size: 16px;
@@ -1835,6 +1851,7 @@ body::after {
     margin: 0px 6px;
 }
 
+
 .tank-testimonials .carousel-indicators .active {
     background: var(--opposite-color);
 }
@@ -1850,6 +1867,7 @@ body::after {
         grid-template-columns: 1fr;
     }
 }
+
 
 @media (max-width:767px) {
     .tank-testimonials .customer-info {
