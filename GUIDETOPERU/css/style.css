@@ -3254,7 +3254,6 @@ li:last-child{
     z-index: 0;
 }
 
-
 #Articulos{
     background-color: rgb(30,30,30);
     color: white;
@@ -3262,7 +3261,7 @@ li:last-child{
 }
 
 #Articulos .container{
-    padding: 200px 150px;
+    padding: 100px 250px;
 }
 
 #Articulos h2{
@@ -3277,7 +3276,7 @@ li:last-child{
 #Articulos .carta{
     background-position: center center;
     background-size: cover;
-    padding: 100px 0px;
+    padding: 100px 100px;
     margin: 150px;
     border-radius: 15px;
 }
@@ -3286,6 +3285,7 @@ li:last-child{
 
 
 .carta:first-child{
+   
     background-image:  linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -3296,12 +3296,13 @@ li:last-child{
 }
 
 .carta:nth-child(2){
+   
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("Imangenes/abrigoo.jpg");
+    ,url("Imangenes/abrigo-polarr.jpeg");
 }
 
 .carta:nth-child(3){
@@ -3310,7 +3311,7 @@ li:last-child{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("Imangenes/lentes.jpg");
+    ,url("Imangenes/lente-de-sol.webp");
 
 }
 
