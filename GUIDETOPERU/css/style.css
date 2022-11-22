@@ -3245,24 +3245,21 @@ li:last-child{
         padding-top: 60px;
     }
 } 
-
 .iconWsp {
     position: fixed;
     background: #29c566;
-    
-    display: flex;
-    
+    display: flex; 
     align-items: center;
-    
+    color: #fff;
     justify-content: center;
-    right: 20px;
+    left: 20px;
     bottom: 0px;
     width: 60px;
     height: 60px;
     z-index: 500;
     border-radius: 50%;
     -webkit-box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.664);
-    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.562)
+    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.3)
 }
 
 .products-4 .form-13-content {
