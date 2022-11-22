@@ -3284,6 +3284,21 @@ li:last-child{
     padding: 100px 250px;
 }
 
+.Articulos header {
+    max-width: 550px;
+}
+
+
+.Articulos header  {
+    font-size: 50px;
+    line-height: 45px;
+    color: var(--title-color);
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
 #Articulos h2{
     margin-top: 0;
     font-size: 3.2em;
