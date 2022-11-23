@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIDE TO PERU</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <BODY oncontextmenu="return false" onselectstart="return false" ondragstart="return false"> 
+    <BODY onLoad="alert('Bienvenido a GUIDE TO PERU. Disfruta el contenido de nuestra página');" onUnLoad="confirm('Gracias por tu visita, esperamos que no sea la última');"></BODY>
+    <section class="tank-bootstrap-header">
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2">
+            <div class="container">
+                <h2 class="navbar-brand" style="color:white;"><font face="Arial" size="5"><b>GUIDE TO PERU</b></font></h2>
+                <button class="navbar-toggler" type="button" 
+                data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse"  id="navbarSupportedContent" >
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#transportes-go">Transportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Hoteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#articulos">Articulos</a>
+                        </li>
+                    </ul>
+                </div>
+           </div> 
+        </nav>
+    </section>
+
+
+    <section class="tank-about-breadcrum">
+        <div class="breadcrum-bg">
+            <div class="container py-5">
+                <p><a href="index.html">Home</a>&nbsp; / &nbsp; Reserva</p>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <section>
+        <center>
+        <h1 style="color:white;">RESERVA Y COMPRA DE ARTÍCULOS</h1>
+        </center>
+    </section>
+
+    <section class="tank-contacts-12" id="contact">
+        <div class="contact-top pt-5">
+            <div class="container py-md-3">
+                <div class="row cont-main-top">
+                    <div class="contacts12-main col-lg-6">
+                        <form action="" class="main-input">
+                            <label for="cliente" class="formulario__label" style="color:white;">Nombre</label>
+                            <input
+                              id="cliente"
+                              type="name"
+                              class="formulario__input"
+                              placeholder="Nombre"
+                            />
+                            <label for="apellidos" class="formulario__label" style="color:white;">Apellidos</label>
+                            <br>
+                            <input
+                              id="apellidos"
+                              type="text"
+                              class="formulario__input"
+                              placeholder="Apellidos"
+                            />
+                            <label for="correo" class="formulario__label" style="color:white;">Email</label>
+                            <input
+                              id="correo"
+                              type="email"
+                              class="formulario__input"
+                              placeholder="Email"
+                            />
+                            <label for="fecha" class="formulario__label" style="color:white;"
+                              >Fecha</label
+                            >
+                            <input
+                              id="fecha"
+                              type="date"
+                              class="formulario__input"
+                              pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+                            />
+                            <br>                      
+                            <label for="hora" class="formulario__label" style="color:white;"
+                              >Indica la hora de tu reserva</label
+                            >
+                            <input id="hora" type="time" class="formulario__input"/>  
+                            <br><br>                  
+                            <label for="mensaje" class="formulario__label" style="color:white;">Mensaje</label>
+                            <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+                            <br>                                        
+                            <div id="respuesta" style="color:white;"></div>               
+                            <button id="submit" class="btn">Enviar a WhatsApp</button>
+                          </form>
+                          <script src="js/form.js"></script>
+                    </div>
+                    <div class="contact col-lg-6 mt-lg-0 mt-5">
+                        <div class="cont-subs">
+                            <br>
+                            <div class="cont-add add-2">
+                                <div class="cont-add-lft">
+                                   <span class="fa fa-envelope" aria-hidden="true"></span>
+                                </div>
+                                <div class="cont-add-rgt">
+                                    <a href="mailto:damaristasayco@outlook.com?subject=Información sobre las reservas y productos&body=Nombre, apellido y DNI">
+                                        <p class="contact-text-sub">damaristasayco@outlook.com</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="cont-add ">
+                                <div class="cont-add-lft">
+                                   <span class="fa fa-phone" aria-hidden="true"></span>
+                                </div>
+                                <div class="cont-add-rgt">
+                                    <a href="https://api.whatsapp.com/send?phone=950457066&text=Hola.%20Me%20interesar%C3%ADa%20saber%20sobre%20las%20reservas%20que%20ofrecen" target="_blank">
+                                        <p class="contact-text-sub">950457066</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="tank-footer-29-main" id="footer">
+        <div class="footer-29 text-center">
+            <div class="container">
+                <div class="main-social-footer-29">
+                    <a href="https://www.facebook.com/" target="_blank" class="facebook"><span class="fa fa-facebook"></span></a>
+                    <a href="https://www.twitter.com/" target="_blank" class="twitter"><span class="fa fa-twitter"></span></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="instagram"><span class="fa fa-instagram"></span></a>
+                </div>
+                <div class="bottom-copies text-center">
+                    <p class="copy-footer-29">2022 reservaciones <a href="#">tank</a></p>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+        </button>
+            <script>
+                window.onscroll = function() {
+                    scrollFunction()
+                };
+
+                function scrollFunction() {
+                    if(document.body.scrollTop > 20 || document.documentElement. scrollTop > 20) {
+                        document.getElementById("movetop").style.display = "block";
+                    }else{
+                        document.getElementById("movetop").style.display = "none";
+                    }
+                }
+
+                function topFunction () {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+    </section>
+    
+
+
+    <script>
+        $(function(){
+            $('.navbar-toggler').click(function(){
+                $('body').toggleClass('noscroll');
+            })
+
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>        
+</body>
+</html>
